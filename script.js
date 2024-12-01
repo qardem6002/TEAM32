@@ -9,6 +9,7 @@ document.getElementById("contact-form").addEventListener("submit", function (eve
     if (!name || !email || !message) {
         alert("Please fill out all fields.");
         return;
+        
     }
 
     if (!validateEmail(email)) {
